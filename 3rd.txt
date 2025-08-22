@@ -1,0 +1,16 @@
+import java.util.Scanner;  // import Scanner class
+
+public class Example {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // create Scanner object
+
+        // reading input
+        int num = sc.nextInt();         // read int
+        double d = sc.nextDouble();     // read double
+        String s = sc.nextLine();       // read string (whole line)
+        String word = sc.next();        // read single word
+        boolean b = sc.nextBoolean();   // read boolean
+
+        sc.close(); // close scanner (good practice)
+    }
+}

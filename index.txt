@@ -1,0 +1,61 @@
+
+ 04. Day 4 String Manipulation and Comparison 
+ 10. Day 10 Working with 2D Arrays 
+ 05. Day 5 Setting Up the Java Development Environment 
+ a 13. Day 13 Exercises on Arrays and Number Handling 
+ a 15. Day 15 Project Todo App in Java 
+ a 08. Day 8 Loops - For, While, and Do-While Loops 
+ a 06. Day 6 Control Statements - If, Else, and Ternary Operators 
+ a 14. Day 14 Binary Search and Number Guessing Game 
+ a 09. Day 9 Introduction to Arrays 
+ a 11. Day 11 Methods and Their Uses 
+ a 20. Day 20 Course Project Overview 
+ a 02. Day 2 Variables and Data Types in Java 
+ a 07. Day 7 Switch Statements and Enums in Java 
+ a 12. Day 12 Recursive Methods and Call Stacks 
+ a 03. Day 3 Handling User Input and Simple Calculations 
+ a 16. Day 16 Object-Oriented Programming Basics 
+ a 17. Day 17 Understanding the this Keyword and Static Methods 
+ a 22. Day 22 Queue and Map Interface 
+ a 18. Day 18 Inheritance and the Super Keyword 
+ a 21. Day 21 Collections Framework Introduction 
+ a 23. Day 23 Exception Handling in Java 
+ a 24. Day 24 Java IO - Working with Files and Streams 
+ a 19. Day 19 Polymorphism and Abstract Classes vs. Interfaces 
+ a 26. Day 26 JavaFX and Basic UI Components 
+ a 27. Day 27 JavaFX Layouts and Scene Builder 
+ a 34. Day 34 Dependency Injection in Spring 
+ a 29. Day 29 Animations in JavaFX 
+ a 25. Day 25 FXML and JavaFX Introduction 
+ a 28. Day 28 Event Handling and Data Binding in JavaFX 
+ a 32. Day 32 Enhancing To-Do Application - Sorting and Filtering 
+ a 38. Day 38 Dependency Injection and @Qualifier in Spring 
+ a 37. Day 37 Generics and Bounded Types 
+ a 36. Day 36 Autowiring and Component Scanning in Spring 
+ a 30. Day 30 Building a To-Do Application with JavaFX 
+ a 33. Day 33 Git and GitHub Integration 
+ a 35. Day 35 Beans and Inversion of Control (IoC) with Spring Boot 
+ a 40. Day 40 Introduction to Web Development and REST APIs 
+ a 39. Day 39 Spring Boot and MVC ChatApp 
+ a 41. Day 41 JSON Processing and Lombok Annotations 
+ a 44. Day 44 Spring Data Access and H2 Databases 
+ a 45. Day 45 Integrating PostgreSQL with Expense Tracker 
+ a 52. Day 52 Expense Tracker Rendering User expenses (expense-ui) 
+ a 53. Day 53 Expense Tracker Add Expense UI (add-expense-ui) 
+ a 54. Day 54 Expense Tracker Editing Expense (edit-expense-ui) 
+ a 55. Day 55 Expense Tracker Viewing Statistics (stats-ui) 
+ a 56. Day 56 Expense Tracker Building and Sharing (production) 
+ a 57. Day 57 Final Days Threads and Concurrency 
+ a 58. Day 58 Final Days Practice 1 Java Basics 
+ a 59. Day 59 Final Days Practice 2 Java Advanced 
+ a 60. Day 60 Final Days Practice 3 Spring and SpringBoot 
+ a 46. Day 46 Spring Security Basics and User Authentication 
+ a 31. Day 31 Adding Features to the To-Do Application 
+ a 42. Day 42 CRUD Operations with Spring Boot RESTful Services 
+ a 43. Day 43 Expense Tracker Application 
+ a 47. Day 47 Session Management and JWT Authentication 
+ a 48. Day 48 User Sign-Up and JWT Integration 
+ a 49. Day 49 Advanced JWT Implementation and Security Configuration 
+ a 50. Day 50 Role-Based Access Control (RBAC) and Final Touches to Expense Tracker 
+ a 01. Day 1 Introduction to Java and JDoodle Basics 
+ 51. Day 51 Expense Tracker Authentication with JavaFX 
