@@ -87,3 +87,69 @@ For conditions, flags, decision making.
 Used in if-else, loops, logical operations.
 Example:
 boolean isJavaFun = true;boolean isAdult = age >= 18;
+
+
+Sure! Let’s break it down **clearly in simple terms**.
+
+---
+
+##**1️⃣ Implicit Casting (Type Casting)**
+
+* Also called **“widening”**.
+* Happens **automatically** by Java.
+* Converts **smaller type → bigger type**.
+* **No data loss**, safe.
+
+**Example:**
+
+```java
+int a = 10;
+double b = a;  // int → double (implicit)
+System.out.println(b); // 10.0
+```
+
+✅ Here `int` is smaller than `double`, so Java does it automatically.
+
+**Common implicit conversions:**
+
+```
+byte → short → int → long → float → double
+char → int → long → float → double
+```
+
+---
+
+## **2️⃣ Explicit Casting (Type Casting)**
+
+* Also called **“narrowing”**.
+* Done **manually** by programmer.
+* Converts **bigger type → smaller type**.
+* **Risk of data loss**.
+
+**Syntax:**
+
+```java
+type newVariable = (type) oldVariable;
+```
+
+**Example:**
+
+```java
+double pi = 3.14;
+int num = (int) pi;  // double → int (explicit)
+System.out.println(num); // 3  (fraction lost)
+```
+
+✅ Here, we **force Java** to convert `double` to `int`, but the decimal part is lost.
+
+---
+
+### **Summary Table**
+
+| Casting Type         | Direction        | Automatic/Manual | Data Loss? |
+| -------------------- | ---------------- | ---------------- | ---------- |
+| Implicit (Widening)  | Smaller → Bigger | Automatic        | No         |
+| Explicit (Narrowing) | Bigger → Smaller | Manual           | Yes        |
+
+---
+

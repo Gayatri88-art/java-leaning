@@ -33,6 +33,16 @@ public class mySecondLecture{
 
     System.out.println(name2);
 
+    //implicite casting {Smaller type → bigger type automatically}
+    int mynum1 = 8;
+    double mydouble = mynum1;
+    System.out.println(mydouble);
+
+    //explicite casting{Bigger type → smaller type manually}
+     double mydoubless = 8.0;
+     int mynum = (int)mydoubless;
+     System.out.println(mynum);
+
 
   }
 }
