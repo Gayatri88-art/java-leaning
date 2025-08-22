@@ -44,5 +44,51 @@ public class mySecondLecture{
      System.out.println(mynum);
 
 
+
+
+
+ 
+ 
+ 
+ 
+ 
+     /*Problem Statement
+Imagine you have a shape-shifting variable named shapeValue. This variable can transform into different forms based on your command. Implement a Java program that allows you to:
+
+✅ Define an initial shapeValue as a double. ✅ Transform shapeValue into different types (int, long, and float). ✅ Display the transformed values dynamically. ✅ Understand how type casting affects numeric precision.*/
+//Step-by-Step Implementation
+// Step 1: Define the Initial shapeValue
+//Start by initializing shapeValue as a double to store a decimal value.
+
+// Define the initial shapeValue (double)
+double shapeValue = 42.75;
+
+//📝 Step 2: Display the Initial Shape
+//Print the original value of shapeValue before any transformations occur.
+
+// Display initial shape
+System.out.println("Current Shape (double): " + shapeValue);
+
+
+//📝 Step 3: Transform shapeValue into Different Types
+//Use explicit type casting to convert shapeValue into int, long, and float values.
+
+// Transform into different shapes
+System.out.println("Transforming shapes...");
+
+// Convert to int (decimal part is truncated)
+int intShape = (int) shapeValue;
+System.out.println("Transformed into int: " + intShape);
+
+// Convert to long (similar truncation occurs)
+long longShape = (long) shapeValue;
+System.out.println("Transformed into long: " + longShape);
+
+// Convert to float (preserves decimal precision but may introduce rounding errors)
+float floatShape = (float) shapeValue;
+System.out.println("Transformed into float: " + floatShape);
+
+
+
   }
 }
