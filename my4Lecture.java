@@ -1,5 +1,8 @@
+import java.util.Scanner;
 public class my4Lecture {
   public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
 //##string creation 
     String goodmorning = "good morning guyzzzzzzzz";
     System.out.println(goodmorning);
@@ -183,7 +186,7 @@ Use the following template and complete the missing parts:*/
 
 
         // Step 1: Create a Scanner object
-        Scanner scanner = new Scanner(System.in);
+        
 
         // Step 2: Prompt user for inputs
         System.out.print("Enter principal amount: ");
