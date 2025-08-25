@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class my3Lecture {
+public class my3Lectureclass {
   
   public static void main(String[] args) {
 

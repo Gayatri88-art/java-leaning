@@ -1,0 +1,67 @@
+##canditional statement
+
+### 🔍 Why Not Use `==` for Strings in Java?
+In Java, **`==` compares object references**, not the actual contents of the strings.
+String a = "yes";
+String b = new String("yes");
+
+System.out.println(a == b); // ❌ Might be false
+System.out.println(a.equals(b)); // ✅ true
+```
+
+To check if **two strings have the same content**, we use `.equals()`.
+
+---
+
+### ✅ `.equals()` vs `.equalsIgnoreCase()`
+
+| Method                        | Description                                     | Case Sensitive? |
+| ----------------------------- | ----------------------------------------------- | --------------- |
+| `str1.equals(str2)`           | Compares the exact content of both strings      | Yes             |
+| `str1.equalsIgnoreCase(str2)` | Compares the content, ignoring upper/lower case | No              |
+
+
+
+
+
+##Each if uses logical operators:
+&& = both conditions must be true
+|| = at least one must be true
+! = not (reverses true/false)
+
+##logic for logical operators
+// 1. Driving license eligibility
+if (age >= 18 && passedTest.equalsIgnoreCase("yes")) { }
+
+// 2. Discount eligibility (senior OR student)
+if (age >= 60 || isStudent) { }
+
+// 3. Login check (NOT logged in)
+if (!isLoggedIn) { }
+
+// 4. Exam pass check
+if (marks >= 40 && attendance >= 75) { }
+
+// 5. Job application eligibility
+if (experience >= 2 && (hasDegree || hasCertification)) { }
+
+
+
+##when to use nested if, nestef else
+| Concept         | When to Use                       | Example Scenario                     |
+| --------------- | --------------------------------- | ------------------------------------ |
+| **Nested if**   | One condition depends on another  | Check age → if adult, then check ID  |
+| **Nested else** | Handle multiple alternative cases | Check grades → if A else if B else C |
+
+
+//else if 
+if (condition1) {
+    // Executes if condition1 is true
+} else if (condition2) {
+    // Executes if condition1 is false and condition2 is true
+} else if (condition3) {
+    // Executes if condition1 and condition2 are false and condition3 is true
+} else {
+    // Executes if none of the above conditions are true
+}
+

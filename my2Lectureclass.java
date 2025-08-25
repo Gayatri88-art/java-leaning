@@ -1,4 +1,4 @@
-public class my2Lecture{
+public class my2Lectureclass{
   public static void main(String args[]){
     byte age = 81; // ✅ Correct, byte can store -128 to 127
     int year = 4; // ✅ Correct
