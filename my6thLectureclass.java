@@ -64,6 +64,16 @@ public class my6thLectureclass {
         }
 
 
+//ternary operators
+     System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        // Using ternary operator to check even or odd
+        String result = (num % 2 == 0) ? "Even" : "Odd";
+
+        System.out.println(num + " is " + result);
+
+
 
         /* Objective
 In this exercise, you will build a Simple Chatbot in Java that interacts with users by recognizing basic greetings, well-being inquiries, weather-related questions, and farewells. If the chatbot does not recognize the input, it will respond with a default message.

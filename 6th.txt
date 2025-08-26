@@ -63,5 +63,15 @@ if (condition1) {
     // Executes if condition1 and condition2 are false and condition3 is true
 } else {
     // Executes if none of the above conditions are true
+    
 }
 
+
+
+
+✅ What is the Ternary Operator?
+
+The ternary operator in Java is a shorthand for if-else.
+Its syntax is:
+
+condition ? expression_if_true : expression_if_false;
