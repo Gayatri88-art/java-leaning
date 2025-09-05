@@ -1,0 +1,38 @@
+* **`if`** is best when:
+
+  * You have **range checks** (e.g., `marks > 90`)
+  * You need **logical operations** (e.g., `age > 18 && country.equals("India")`)
+  * You’re working with **booleans, floats, or complex conditions**
+
+* **`switch`** is best when:
+
+  * You compare a **single variable** to **many constant values**
+  * The variable is of type `int`, `char`, `String`, or `enum`
+  * You want cleaner and more **readable code** for long `if-else-if` chains
+
+
+
+switch (variable) {
+    case value1:
+        // Code block
+        break;
+    case value2:
+        // Code block
+        break;
+    ...
+    default:
+        // Code block (optional)
+}
+
+
+
+✅ Why We Use enum in Java
+
+In Java, enum (short for "enumeration") is a special data type used to define a collection of constants.
+ It is used when you have a fixed set of related values. Using enum improves type safety, readability, and 
+ maintainability of code.
+🧠 You Learned:
+
+How to define and use an enum.
+How to add fields and methods to an enum.
+A practical real-world example where enum makes code cleaner and safer.
